@@ -52,3 +52,40 @@ The project's concept is still under development,, and the above goals might be 
 project progresses.
 
 ### Classification algorithm
+
+
+----
+* Criar um model com é sem grid
+
+* Tem que fazer a transformações das categorias de position:
+  * integer (finishing position)
+  * “R” (retired)
+  * “D” (disqualified)
+  * “E” (excluded)
+  * “W” (withdrawn)
+  * “F” (failed to qualify)
+  * “N” (not classified)
+
+* parse miliseconds
+
+### Columns
+
+- num_of_podiums_in_circuit
+- num_of_wins_in_circuit
+- driver_made_fp ?
+- 
+
+Based on the date of each date calculate te cumulative, WIN,PODIUM,POLE,LAPS,LED,POINTS, RANK, AVST, AVFN, RAF, LLF, DNQ, WD.
+
+Pole - Poles won (won in qualifying only)
+Laps - Laps completed
+Led - Laps led
+Earnings - Total money won for the season (includes bonuses)
+Rank - Points rank at the end of the season
+AvSt - Average starting position
+AvFn - Average finishing position
+RAF - Number of times Running At Finish (DNFs = Races - RAF)
+Miles - Miles raced
+LLF - Lead lap finishes
+DNQ - Races for which the driver Did Not Qualify
+WD - Withdrew
