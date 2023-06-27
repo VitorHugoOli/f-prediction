@@ -18,14 +18,63 @@ def about():
     <!DOCTYPE html>
     <html>
         <head>
-            <title>About</title>
+            <title>About The Project</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f4f4f4;
+                    margin: 0;
+                    padding: 0;
+                }
+                .container {
+                    width: 80%;
+                    margin: auto;
+                    overflow: hidden;
+                }
+                header {
+                    background: #50b3a2;
+                    color: white;
+                    padding-top: 30px;
+                    min-height: 70px;
+                    border-bottom: #e8491d 3px solid;
+                }
+                header h1 {
+                    padding: 5px 0;
+                    color: #fff;
+                    text-transform: uppercase;
+                    text-align: center;
+                    margin: 0;
+                    font-size: 36px;
+                }
+                main {
+                    margin: 20px;
+                    padding: 20px;
+                    background-color: #fff;
+                    box-shadow: 0px 0px 10px #bbb;
+                    font-size: 18px;
+                    line-height: 1.6em;
+                }
+            </style>
         </head>
         <body>
-            <h1>About</h1>
-            <p>This is a project trying to predict the probability of driver winning the next f1 race.</p>
+            <header>
+                <div class="container">
+                    <h1>About Our Project</h1>
+                </div>
+            </header>
+            <main>
+                <div class="container">
+                    <p>The project is dedicated to utilizing data science for predicting the potential outcomes of future Formula 1 races. By analyzing various factors and previous performance data, we are working towards a system capable of estimating a driver's chances of success in the upcoming races. This, we believe, can revolutionize the sport by adding an additional layer of excitement and anticipation.</p>
+                </div>
+            </main>
         </body>
-    </html>    
+    </html>
     """
+
+
+
+
+
 
 
 # constructorId, position, laps, nationality, round, circuitId, country_circuit, height, nationality_constructors, points_season, position_season, wins_season, age, weather_condition, humidity, temperature, AvgGrid, AvgFn, wins_cum
@@ -54,4 +103,4 @@ def actual_prediction():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0')

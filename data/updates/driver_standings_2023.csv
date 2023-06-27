@@ -1,0 +1,21 @@
+Position,Points,Wins,Driver ID,Driver Code,Given Name,Family Name,Nationality,Constructor ID,Constructor Name,Constructor Nationality
+1,195,6,max_verstappen,VER,Max,Verstappen,Dutch,red_bull,Red Bull,Austrian
+2,126,2,perez,PER,Sergio,Pérez,Mexican,red_bull,Red Bull,Austrian
+3,117,0,alonso,ALO,Fernando,Alonso,Spanish,aston_martin,Aston Martin,British
+4,102,0,hamilton,HAM,Lewis,Hamilton,British,mercedes,Mercedes,German
+5,68,0,sainz,SAI,Carlos,Sainz,Spanish,ferrari,Ferrari,Italian
+6,65,0,russell,RUS,George,Russell,British,mercedes,Mercedes,German
+7,54,0,leclerc,LEC,Charles,Leclerc,Monegasque,ferrari,Ferrari,Italian
+8,37,0,stroll,STR,Lance,Stroll,Canadian,aston_martin,Aston Martin,British
+9,29,0,ocon,OCO,Esteban,Ocon,French,alpine,Alpine F1 Team,French
+10,15,0,gasly,GAS,Pierre,Gasly,French,alpine,Alpine F1 Team,French
+11,12,0,norris,NOR,Lando,Norris,British,mclaren,McLaren,British
+12,7,0,albon,ALB,Alexander,Albon,Thai,williams,Williams,British
+13,6,0,hulkenberg,HUL,Nico,Hülkenberg,German,haas,Haas F1 Team,American
+14,5,0,piastri,PIA,Oscar,Piastri,Australian,mclaren,McLaren,British
+15,5,0,bottas,BOT,Valtteri,Bottas,Finnish,alfa,Alfa Romeo,Swiss
+16,4,0,zhou,ZHO,Guanyu,Zhou,Chinese,alfa,Alfa Romeo,Swiss
+17,2,0,tsunoda,TSU,Yuki,Tsunoda,Japanese,alphatauri,AlphaTauri,Italian
+18,2,0,kevin_magnussen,MAG,Kevin,Magnussen,Danish,haas,Haas F1 Team,American
+19,0,0,de_vries,DEV,Nyck,de Vries,Dutch,alphatauri,AlphaTauri,Italian
+20,0,0,sargeant,SAR,Logan,Sargeant,American,williams,Williams,British
